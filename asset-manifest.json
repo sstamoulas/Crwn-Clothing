@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Crwn-Clothing/static/css/main.c53472b6.chunk.css",
-    "main.js": "/Crwn-Clothing/static/js/main.36b2e396.chunk.js",
-    "main.js.map": "/Crwn-Clothing/static/js/main.36b2e396.chunk.js.map",
+    "main.css": "/Crwn-Clothing/static/css/main.4c4bd568.chunk.css",
+    "main.js": "/Crwn-Clothing/static/js/main.bc89f359.chunk.js",
+    "main.js.map": "/Crwn-Clothing/static/js/main.bc89f359.chunk.js.map",
     "runtime-main.js": "/Crwn-Clothing/static/js/runtime-main.f71e7432.js",
     "runtime-main.js.map": "/Crwn-Clothing/static/js/runtime-main.f71e7432.js.map",
-    "static/js/2.4132db81.chunk.js": "/Crwn-Clothing/static/js/2.4132db81.chunk.js",
-    "static/js/2.4132db81.chunk.js.map": "/Crwn-Clothing/static/js/2.4132db81.chunk.js.map",
+    "static/js/2.4a477fbc.chunk.js": "/Crwn-Clothing/static/js/2.4a477fbc.chunk.js",
+    "static/js/2.4a477fbc.chunk.js.map": "/Crwn-Clothing/static/js/2.4a477fbc.chunk.js.map",
     "index.html": "/Crwn-Clothing/index.html",
-    "precache-manifest.e337826cfeaf655e43e6b87ebe65e5d6.js": "/Crwn-Clothing/precache-manifest.e337826cfeaf655e43e6b87ebe65e5d6.js",
+    "precache-manifest.6aef019ef91db5fd18b630269abb7878.js": "/Crwn-Clothing/precache-manifest.6aef019ef91db5fd18b630269abb7878.js",
     "service-worker.js": "/Crwn-Clothing/service-worker.js",
-    "static/css/main.c53472b6.chunk.css.map": "/Crwn-Clothing/static/css/main.c53472b6.chunk.css.map",
-    "static/js/2.4132db81.chunk.js.LICENSE": "/Crwn-Clothing/static/js/2.4132db81.chunk.js.LICENSE"
+    "static/css/main.4c4bd568.chunk.css.map": "/Crwn-Clothing/static/css/main.4c4bd568.chunk.css.map",
+    "static/js/2.4a477fbc.chunk.js.LICENSE": "/Crwn-Clothing/static/js/2.4a477fbc.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.f71e7432.js",
-    "static/js/2.4132db81.chunk.js",
-    "static/css/main.c53472b6.chunk.css",
-    "static/js/main.36b2e396.chunk.js"
+    "static/js/2.4a477fbc.chunk.js",
+    "static/css/main.4c4bd568.chunk.css",
+    "static/js/main.bc89f359.chunk.js"
   ]
 }
