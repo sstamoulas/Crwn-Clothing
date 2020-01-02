@@ -25,16 +25,9 @@
       var segmentCount = 1;
       var l = window.location;
 
-      console.log(`hostname: ${l.hostname}`);
-      console.log(`port: ${l.port}`);
-      console.log(`pathname: ${l.pathname}`);
-      console.log(`search: ${l.search}`);
-      console.log(`hash: ${l.hash}`);
-
-
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/' +
+        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
         l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
         (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash
