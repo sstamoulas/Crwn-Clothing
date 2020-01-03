@@ -7,7 +7,7 @@ const CollectionItem = ({ id, name, imageUrl, price }) => (
     <div 
       className='image'
       style={{
-        backgroundImage: `url(${imageUrl})`
+        backgroundImage: `url(${(process.env.NODE_ENV === 'production' ? process.env.REACT_APP_PUBLIC_URL : '')}${imageUrl})`
       }}
     />
     <div className='collection-footer'>

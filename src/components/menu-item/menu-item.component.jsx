@@ -8,7 +8,7 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
     <div 
       className="background-image" 
       style={{
-        backgroundImage: `url(${imageUrl})`
+        backgroundImage: `url(${(process.env.NODE_ENV === 'production' ? process.env.REACT_APP_PUBLIC_URL : '')}${imageUrl})`
       }}
     />
     <div className="content">
