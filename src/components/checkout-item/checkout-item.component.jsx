@@ -11,7 +11,7 @@ const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
   return (
   <div className='checkout-item'>
     <div className='image-container'>
-      <img src={imageUrl} alt='item' />
+      <img src={`${(process.env.NODE_ENV === 'production' ? process.env.REACT_APP_PUBLIC_URL : '')}${imageUrl}`} alt='item' />
     </div>
     <span className='name'>{name}</span>
     <span className='quantity'>
