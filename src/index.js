@@ -12,7 +12,7 @@ import App from './App';
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename={'Crwn-Clothing'}>
+    <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
       <PersistGate persistor={persistor}>
         <App />
       </PersistGate>
