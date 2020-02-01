@@ -12,11 +12,10 @@ import HomePage from './pages/home-page/home-page.component';
 import ShopPage from './pages/shop-page/shop-page.component';
 import CheckoutPage from './pages/checkout-page/checkout-page.component';
 
-import {auth, createUserProfileDocument} from './firebase/firebase.utils';
+import {auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
-
 
 class App extends Component {
   unsubscribeFromAuth = null
@@ -38,9 +37,8 @@ class App extends Component {
           });
         });
       }
-      else {
-        setCurrentUser(userAuth);
-      }
+      
+      setCurrentUser(userAuth);
     });
   }
 
@@ -74,7 +72,7 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => createStructuredSelector({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
 });
 
 const mapDispatchToProps = (dispatch) => ({
